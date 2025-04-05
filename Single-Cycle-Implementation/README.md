@@ -1,4 +1,5 @@
-Currently Supported Instructions
+Currently Supported Instructions:
+
 R-Type (Register-Register Operations)
 add, sub, and, or, xor, sll, srl, sra, slt, sltu
 
