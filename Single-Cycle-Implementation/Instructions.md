@@ -1,6 +1,6 @@
 # RISC-V Instruction Examples
 
-## R-Type Instructions
+##R-Type Instructions
 
 ```assembly
 li x5, 10             # Load 10 into x5
