@@ -18,8 +18,9 @@ srl x13, x5, x6       # x13 = x5 >> (x6 % 32) = 10 >> 5 = 0
 sra x14, x5, x6       # x14 = arithmetic shift right 10 by 5 = 0
 slt x15, x5, x6       # x15 = (10 < 5) ? 1 : 0 = 0
 sltu x16, x5, x6      # Unsigned comparison (10 < 5) = 0
-```
-```Machine Code:
+
+
+Machine Code:
 00a00293
 00500313
 006283b3
