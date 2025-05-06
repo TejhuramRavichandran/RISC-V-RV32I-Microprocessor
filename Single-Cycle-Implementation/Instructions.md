@@ -1,11 +1,9 @@
 
-# RISC-V Instruction Examples
+# RISC-V Instructions Implemented
 
-This document demonstrates example usage of various RISC-V instruction types, including R-type, I-type, B-type, J-type, Memory, and U-type.
 
----
 
-## ✅ R-Type Instructions
+##  R-Type Instructions
 
 ```assembly
 li x5, 10             # Load 10 into x5
@@ -21,7 +19,19 @@ sra x14, x5, x6       # x14 = arithmetic shift right 10 by 5 = 0
 slt x15, x5, x6       # x15 = (10 < 5) ? 1 : 0 = 0
 sltu x16, x5, x6      # Unsigned comparison (10 < 5) = 0
 ```
-
+Machine Code:
+00a00293
+00500313
+006283b3
+40628433
+0062f4b3
+0062e533
+0062c5b3
+00629633
+0062d6b3
+4062d733
+0062a7b3
+0062b833
 ---
 
 ## ✅ I-Type Instructions
